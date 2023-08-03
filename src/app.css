@@ -1,0 +1,16 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.low {
+    @apply bg-red-500;
+}
+
+.high {
+    @apply bg-green-500;
+}
+
+.transition-color {
+    @apply transition-colors duration-500 ease-in-out;
+}
